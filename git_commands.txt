@@ -1,0 +1,89 @@
+
+GIT COMMANDS USED IN THE ASSIGNMENT
+
+1. mkdir login-project
+   Creates a new project directory.
+
+2. cd login-project
+   Navigates into the project directory.
+
+3. touch index.html
+   Creates the index.html file.
+
+4. touch about.html
+   Creates the about.html file.
+
+5. git init
+   Initializes a new local Git repository.
+
+6. git config --global user.name "Your Name"
+   Sets the name used for Git commits.
+
+7. git config --global user.email "your-email@example.com"
+   Sets the email used for Git commits.
+
+8. git status
+   Displays the current state of the repository.
+
+9. git add .
+   Stages all changes for the next commit.
+
+10. git add index.html
+    Stages changes made to index.html.
+
+11. git add about.html
+    Stages changes made to about.html.
+
+12. git add .gitignore
+    Stages the .gitignore file.
+
+13. git commit -m "Initial commit: Add HTML project files"
+    Saves the initial project snapshot.
+
+14. git commit -m "Update homepage content"
+    Records changes to the homepage.
+
+15. git branch feature
+    Creates a new branch named feature.
+
+16. git branch
+    Displays all local branches.
+
+17. git switch feature
+    Switches to the feature branch.
+
+18. git switch main
+    Switches back to the main branch.
+
+19. git merge feature
+    Merges feature branch changes into main.
+
+20. git log --oneline
+    Displays a compact commit history.
+
+21. git log --oneline --graph --all
+    Displays the commit history with branch structure.
+
+22. touch .gitignore
+    Creates a Git ignore configuration file.
+
+23. git commit -m "Add gitignore for logs and temporary files"
+    Commits the .gitignore configuration.
+
+24. git revert HEAD
+    Creates a new commit that reverses the latest commit.
+
+25. git remote add origin REPOSITORY_URL
+    Connects the local repository to GitHub.
+
+26. git remote -v
+    Displays configured remote repository URLs.
+
+27. git push -u origin main
+    Pushes the main branch to GitHub.
+
+28. git push -u origin feature
+    Pushes the feature branch to GitHub.
+
+29. git commit -m "Add command documentation"
+    Commits the Git command documentation file.
